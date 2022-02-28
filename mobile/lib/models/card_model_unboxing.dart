@@ -25,7 +25,7 @@ var cardDataUnboxing = [
   },
   {
     "cardTitle": "Perkenalan Terhadap\nSocial Media Marketing",
-    "cardName": "Putri Tanjung",
+    "cardName": "Giorrando Grissandy",
     "cardAvatar": "assets/images/avatar_gio.png",
     "cardBackground": "assets/images/card_cover_blue.png",
   },
