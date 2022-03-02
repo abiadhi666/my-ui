@@ -433,7 +433,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           left: 12,
                           child: Text(
                             cardsTrending[index].cardName as String, 
-                            style: GoogleFonts.poppins(
+                            style: GoogleFonts.roboto(
                               fontSize: 14,
                               fontWeight: FontWeight.w400,
                               color: kTextBlack,
@@ -442,8 +442,8 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
 
                         Positioned(
-                          bottom: 8,
-                          right: 14,
+                          bottom: 6,
+                          right: 6,
                           child: 
                           IconButton(
                             onPressed: (){
@@ -547,7 +547,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           left: 12,
                           child: Text(
                             cardsUnboxing[index].cardName as String, 
-                            style: GoogleFonts.poppins(
+                            style: GoogleFonts.roboto(
                               fontSize: 14,
                               fontWeight: FontWeight.w400,
                               color: kTextBlack,
@@ -556,8 +556,8 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
 
                         Positioned(
-                          bottom: 8,
-                          right: 14,
+                          bottom: 6,
+                          right: 6,
                           child: 
                           IconButton(
                             onPressed: (){
