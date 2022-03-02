@@ -39,26 +39,26 @@ class _BottomNavigationBarExampleState extends State<BottomNavigationBarExample>
         items:<BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: _selectedIndex == 0 
-              ? new SvgPicture.asset('assets/icons/icon_home_colored.svg')
-              : new SvgPicture.asset('assets/icons/icon_home_colored.svg'),
+              ? new SvgPicture.asset('assets/icons/icon_home_colored.svg', width: 24, height: 24)
+              : new SvgPicture.asset('assets/icons/icon_home_colored.svg', width: 24, height: 24),
             label: 'Home',
           ),
           BottomNavigationBarItem(
             icon: _selectedIndex == 1
-              ? new SvgPicture.asset('assets/icons/icon_people.svg')
-              : new SvgPicture.asset('assets/icons/icon_people.svg'),
+              ? new SvgPicture.asset('assets/icons/icon_people.svg', width: 24, height: 24)
+              : new SvgPicture.asset('assets/icons/icon_people.svg', width: 24, height: 24),
             label: 'User',
           ),
           BottomNavigationBarItem(
             icon: _selectedIndex == 2 
-              ? new SvgPicture.asset('assets/icons/icon_message.svg')
-              : new SvgPicture.asset('assets/icons/icon_message.svg'),
+              ? new SvgPicture.asset('assets/icons/icon_message.svg', width: 24, height: 24)
+              : new SvgPicture.asset('assets/icons/icon_message.svg', width: 24, height: 24),
             label: 'Chat',
           ),
           BottomNavigationBarItem(
             icon: _selectedIndex == 3 
-              ? new SvgPicture.asset('assets/icons/icon_playlist.svg')
-              : new SvgPicture.asset('assets/icons/icon_playlist.svg'),
+              ? new SvgPicture.asset('assets/icons/icon_playlist.svg', width: 24, height: 24)
+              : new SvgPicture.asset('assets/icons/icon_playlist.svg', width: 24, height: 24),
             label: 'Playlist',
           ), 
         ],

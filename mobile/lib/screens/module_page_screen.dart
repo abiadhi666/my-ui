@@ -239,7 +239,7 @@ class ModulePageScreen extends StatelessWidget{
                           child: Container(
                             width: 102,
                             height: 20,
-                            padding: EdgeInsets.only(top: 3.5, left: 8, bottom: 4, right: 8),
+                            padding: EdgeInsets.only(top: 3, left: 8, bottom: 4, right: 8),
                             decoration: BoxDecoration(
                               color: kBlackSecondary,
                               borderRadius: BorderRadius.circular(4)
@@ -398,7 +398,7 @@ class ModulePageScreen extends StatelessWidget{
                           child: Container(
                             width: 102,
                             height: 20,
-                            padding: EdgeInsets.only(top: 3.5, left: 8, bottom: 4, right: 8),
+                            padding: EdgeInsets.only(top: 3, left: 8, bottom: 4, right: 8),
                             decoration: BoxDecoration(
                               color: kGreySecondary,
                               borderRadius: BorderRadius.circular(4)
@@ -443,9 +443,13 @@ class ModulePageScreen extends StatelessWidget{
                             )
                           ), 
                         ),
-                        Positioned(
-                          bottom: 16,
-                          left: 12,
+
+                        Container(
+                          margin: EdgeInsets.only(top: 112, left: 12),
+                          foregroundDecoration: BoxDecoration(
+                            color: Colors.grey,
+                            backgroundBlendMode: BlendMode.saturation,
+                          ),
                           child: Image.asset(cardsThinking[index].cardAvatar as String)
                         ),
 
